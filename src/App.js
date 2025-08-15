@@ -2298,7 +2298,7 @@ const ResearchGroupPage = () => (
         date: "July 29, 2025",
         title: "Preserving and Accessing: Secure AI Solutions for Sensitive Information Systems",
         type: "Workshop",
-        description: "LUSTRE/GLOW workshop",
+        description: "LUSTRE GLOW Workshop: Government Records and AI",
         status: "completed",
         icon: Shield,
         color: "red"
