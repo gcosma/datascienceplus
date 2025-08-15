@@ -3,7 +3,7 @@
 This guide explains how to update your site at [cosmos-ai.com](https://cosmos-ai.com/) using the automated deployment script.
 
 ## Quick Start (TL;DR)
-1. Make your changes to the source files
+1. Make and save your changes to the source files
 2. Run `./deploy.sh`
 3. Wait 2-3 minutes for changes to appear live
 
@@ -137,3 +137,4 @@ echo "✅ Site updated! Check https://cosmos-ai.com/ in 2-3 minutes"
 **Last Updated**: $(date)  
 **Site URL**: [cosmos-ai.com](https://cosmos-ai.com/)  
 **Repository**: [github.com/gcosma/datascienceplus](https://github.com/gcosma/datascienceplus)
+
