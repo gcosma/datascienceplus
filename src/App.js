@@ -2295,6 +2295,24 @@ const ResearchGroupPage = () => (
   const OutreachPage = () => {
     const timelineEvents = [
       {
+        date: "July 29, 2025",
+        title: "Preserving and Accessing: Secure AI Solutions for Sensitive Information Systems",
+        type: "Workshop",
+        description: "LUSTRE/GLOW workshop",
+        status: "completed",
+        icon: Shield,
+        color: "red"
+      },
+      {
+        date: "July 23, 2025", 
+        title: "Pack to the Future 2025",
+        type: "Conference Talk",
+        description: "Professor Georgina Cosma and Dr Nikki Clarke, Loughborough University - AI: The Future: Research and Innovation at Loughborough University. Midlands Packaging Society event.",
+        status: "completed",
+        icon: Presentation,
+        color: "violet"
+      },      
+      {
         date: "June 2025",
         title: "HealTac Conference Poster Presentation",
         type: "Conference Presentation",
