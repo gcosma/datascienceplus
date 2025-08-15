@@ -264,7 +264,6 @@ const teamMembers = [
     },
 
     // Current KTP Associate
-    // Current KTP Associate
     {
       name: "Tom Middleton",
       position: "KTP Associate - Document Deduplication Algorithms",
@@ -277,6 +276,35 @@ const teamMembers = [
       status: "current",
       image: personImage
     },
+
+  // Current Assistant Researchers
+  {
+    name: "Abena Fosuaa Gyasi",
+    position: "Assistant Researcher in AI",
+    specialisation: "Artificial Intelligence Research",
+    type: "research_staff",
+    status: "current",
+    image: personImage
+  },
+  {
+    name: "Ihsane Boushaba",
+    position: "Assistant Researcher in AI", 
+    specialisation: "Artificial Intelligence Research",
+    type: "research_staff",
+    status: "current",
+    image: personImage
+  },
+  
+  // Current EPSRC Intern
+  {
+    name: "Krina Vara",
+    position: "EPSRC Funded Internship in AI",
+    specialisation: "Artificial Intelligence Research Internship",
+    funder: "EPSRC",
+    type: "intern",
+    status: "current",
+    image: personImage
+  },
 
     // =============================================================================
     // ALUMNI - RESEARCH STAFF (Now in Academic Positions)
