@@ -2091,6 +2091,48 @@ const ResearchGroupPage = () => (
             </div>
           </section>
 
+          {/* Current Research Staff */}
+          <section className="mb-24">
+            <div className="flex items-center gap-4 mb-12">
+              <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg">
+                <Users className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <h2 className="text-4xl font-bold text-gray-900">Current Research Staff & Interns</h2>
+                <p className="text-gray-600 mt-1">Assistant researchers and funded interns contributing to our AI research projects.</p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+              {teamMembers.filter(member => (member.type === 'research_staff' || member.type === 'intern') && member.status === 'current').map((member, i) => (
+                <div key={i} className="group bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 hover:border-green-200">
+                  <div className="relative">
+                    <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-3xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      <Users className="w-10 h-10 text-white" />
+                      <div className="absolute -inset-1 bg-gradient-to-r from-green-400/20 to-emerald-400/20 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    </div>
+                    <div className="absolute top-0 right-0 w-6 h-6 bg-green-400 rounded-full flex items-center justify-center">
+                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors">{member.name}</h3>
+                  <div className="bg-green-50 rounded-xl p-3 mb-4">
+                    <p className="text-green-800 text-sm font-medium">{member.position}</p>
+                  </div>
+                  <p className="text-gray-700 font-medium mb-4 leading-relaxed">{member.specialisation}</p>
+                  {member.funder && (
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                        <p className="text-gray-600 text-sm">Funded by: <span className="font-medium">{member.funder}</span></p>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+
+
           {/* Research Alumni */}
           <section className="mb-24">
             <div className="flex items-center gap-4 mb-12">
