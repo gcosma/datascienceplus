@@ -2297,7 +2297,7 @@ const ResearchGroupPage = () => (
       {
         date: "December 5, 2025",
         title: "AI, Data, and Creative Practices for Solidaristic Healthcare",
-        type: "Workshop",
+        type: "Workshop Presentation",
         description: "AI, Data Modelling, and Ethics",
         status: "completed",
         icon: Shield,
@@ -2305,9 +2305,9 @@ const ResearchGroupPage = () => (
       },
       {
         date: "July 29, 2025",
-        title: "Preserving and Accessing: Secure AI Solutions for Sensitive Information Systems",
-        type: "Workshop",
-        description: "LUSTRE GLOW Workshop: Government Records and AI",
+        title: "LUSTRE GLOW Workshop: Government Records and AI",
+        type: "Workshop Presentation",
+        description: "Preserving and Accessing: Secure AI Solutions for Sensitive Information Systems",
         status: "completed",
         icon: Shield,
         color: "red"
