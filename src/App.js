@@ -2295,6 +2295,15 @@ const ResearchGroupPage = () => (
   const OutreachPage = () => {
     const timelineEvents = [
       {
+        date: "December 5, 2025",
+        title: "AI, Data, and Creative Practices for Solidaristic Healthcare",
+        type: "Workshop",
+        description: "AI, Data Modelling, and Ethics",
+        status: "completed",
+        icon: Shield,
+        color: "red"
+      },
+      {
         date: "July 29, 2025",
         title: "Preserving and Accessing: Secure AI Solutions for Sensitive Information Systems",
         type: "Workshop",
