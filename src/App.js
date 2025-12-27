@@ -2743,7 +2743,7 @@ const ResearchGroupPage = () => (
         <div className="relative z-10 text-center">
           <h2 className="text-3xl font-bold mb-6">Let's Collaborate</h2>
           <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto leading-relaxed">
-            Interested in ethical AI research, healthcare technology, or academic partnerships? I'd love to hear from you.
+            Interested in AI research, healthcare technology, or academic partnerships? Please get in touch.
           </p>
           <a 
             href="mailto:g.cosma@lboro.ac.uk" 
