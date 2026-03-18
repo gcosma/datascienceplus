@@ -312,6 +312,7 @@ const teamMembers = [
     name: "Abena Fosuaa Gyasi",
     position: "Assistant Researcher in AI",
     specialisation: "Artificial Intelligence Research",
+    previousRole: "Research Assistant - DECODE Project", 
     type: "research_alumni",
     status: "completed",
     image: personImage
@@ -320,6 +321,7 @@ const teamMembers = [
       name: "Ihsane Boushaba",
       position: "Assistant Researcher in AI", 
       specialisation: "Artificial Intelligence Research",
+      previousRole: "Research Assistant - DECODE Project", 
       type: "research_alumni",
       status: "completed",
       image: personImage
