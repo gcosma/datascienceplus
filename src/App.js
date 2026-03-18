@@ -2295,6 +2295,15 @@ const ResearchGroupPage = () => (
   const OutreachPage = () => {
     const timelineEvents = [
       {
+        date: "March 18, 2026",
+        title: "Extracting Safety Intelligence from Healthcare Incident Reports",
+        type: "Presentation",
+        description: "NHS England",
+        status: "completed",
+        icon: Presentation,
+        color: "rose"
+      },
+      {
         date: "December 5, 2025",
         title: "AI, Data, and Creative Practices for Solidaristic Healthcare",
         type: "Workshop Presentation",
