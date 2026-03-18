@@ -297,25 +297,23 @@ const teamMembers = [
         // Current KTP Associate
     {
       name: "Tom Middleton",
-      position: "KTP Associate - Document Deduplication Algorithms",
+      position: "Employee at SVGC",
       specialisation: "Innovative algorithms for government document deduplication and adaptive AI systems",
       funder: "KTP Partnership with SVGC",
-      previousRole: "MSc AI at Loughborough University",
-      startDate: "January 2024",
+      previousRole: "KTP Associate at SVGC/MSc AI at Loughborough University/",
+      startDate: "January 2023",
       endDate: "December 2025",
       type: "visiting_fellow",
-      status: "completed",
       image: personImage
     },
 
     {
-    name: "Abena Fosuaa Gyasi",
-    position: "Assistant Researcher in AI",
-    specialisation: "Artificial Intelligence Research",
-    previousRole: "Research Assistant - DECODE Project", 
-    type: "research_alumni",
-    status: "completed",
-    image: personImage
+      name: "Abena Fosuaa Gyasi",
+      position: "Assistant Researcher in AI",
+      specialisation: "Artificial Intelligence Research",
+      previousRole: "Research Assistant - DECODE Project", 
+      type: "research_alumni",
+      image: personImage
     },
     {
       name: "Ihsane Boushaba",
@@ -323,7 +321,6 @@ const teamMembers = [
       specialisation: "Artificial Intelligence Research",
       previousRole: "Research Assistant - DECODE Project", 
       type: "research_alumni",
-      status: "completed",
       image: personImage
     },
 
