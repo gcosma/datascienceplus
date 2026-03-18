@@ -490,8 +490,27 @@ const teamMembers = [
     </nav>
   );
 
+
 const GrantCapturePage = () => {
   const fundingEvents = [
+    {
+      year: "2026-2028",
+      type: "Principal Investigator", 
+      title: "ARISE: Adverse Report Intelligence for Safety Enhancement",
+      funder: "Impact Accelerator Award",
+      amount: "~£39k",
+      description: "Funding to enhance the Lens.ai tool by improving its functionality, performance, and reliability, advancing it to Technology Readiness Level 4 (TRL4)",
+      color: "emerald"
+    },
+    {
+      year: "2026-2028",
+      type: "Principal Investigator", 
+      title: "KTP project on developing an AI-powered system for organisational transformation",
+      funder: "UKRI",
+      amount: "~£245k",
+      description: "Knowledge Transfer Partnership with SysDoc. Research Associate: Adam Birch.",
+      color: "emerald"
+    },
     {
       year: "2023-2027",
       type: "Principal Investigator",
