@@ -223,16 +223,6 @@ const teamMembers = [
       image: personImage
     },
     {
-      name: "Mikel Williams",
-      position: "PhD Student in Information Retrieval",
-      specialisation: "Neural Information Retrieval with cross-modal knowledge transfer",
-      funder: "self-funded",
-      startDate: "July 2021",
-      type: "phd",
-      status: "current",
-      image: personImage
-    },
-    {
       name: "Jamie Lanyon",
       position: "PhD Student in neural machine unlearning",
       specialisation: "Selective Forgetting for Large Language Models",
@@ -265,6 +255,46 @@ const teamMembers = [
 
     // Current KTP Associate
     {
+      name: "Adam Birch",
+      position: "KTP Associate - AI for Business Transformation",
+      specialisation: "Machine learning, statistics, data science, psychology, business",
+      funder: "KTP Partnership with SysDoc Ltd",
+      previousRole: "MSc Data Science at Loughborough University",
+      startDate: "January 2026",
+      endDate: "December 2028",
+      type: "KTP Associate",
+      status: "current",
+      image: personImage
+    },
+
+  // Current Assistant Researchers
+    {
+      name: "Mikel Williams",
+      position: "Research Associate in AI Software Engineering",
+      specialisation: "Advanced Software Development",
+      specialisation: "Artificial Intelligence and Software Development (Front- and Back- end)",
+      type: "research_staff",
+      status: "completed",
+      image: personImage
+    },
+
+    // Current EPSRC Intern
+    {
+      name: "Krina Vara",
+      position: "EPSRC Funded Internship in AI",
+      specialisation: "Artificial Intelligence Research Internship",
+      funder: "EPSRC",
+      type: "Research Associate in AI",
+      status: "current",
+      image: personImage
+    },
+
+
+    // =============================================================================
+    // ALUMNI - RESEARCH STAFF (Now in Academic Positions)
+    // =============================================================================
+        // Current KTP Associate
+    {
       name: "Tom Middleton",
       position: "KTP Associate - Document Deduplication Algorithms",
       specialisation: "Innovative algorithms for government document deduplication and adaptive AI systems",
@@ -273,43 +303,27 @@ const teamMembers = [
       startDate: "January 2024",
       endDate: "December 2025",
       type: "visiting_fellow",
-      status: "current",
+      status: "completed",
       image: personImage
     },
 
-  // Current Assistant Researchers
-  {
+    {
     name: "Abena Fosuaa Gyasi",
     position: "Assistant Researcher in AI",
     specialisation: "Artificial Intelligence Research",
     type: "research_staff",
-    status: "current",
+    status: "completed",
     image: personImage
-  },
-  {
-    name: "Ihsane Boushaba",
-    position: "Assistant Researcher in AI", 
-    specialisation: "Artificial Intelligence Research",
-    type: "research_staff",
-    status: "current",
-    image: personImage
-  },
-  
-  // Current EPSRC Intern
-  {
-    name: "Krina Vara",
-    position: "EPSRC Funded Internship in AI",
-    specialisation: "Artificial Intelligence Research Internship",
-    funder: "EPSRC",
-    type: "intern",
-    status: "current",
-    image: personImage
-  },
+    },
+    {
+      name: "Ihsane Boushaba",
+      position: "Assistant Researcher in AI", 
+      specialisation: "Artificial Intelligence Research",
+      type: "research_staff",
+      status: "completed",
+      image: personImage
+    },
 
-    // =============================================================================
-    // ALUMNI - RESEARCH STAFF (Now in Academic Positions)
-    // =============================================================================
-    
     {
       name: "Dr Emeka Raphael",
       position: "Lecturer, Aston University",
