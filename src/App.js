@@ -252,7 +252,7 @@ const teamMembers = [
       status: "current",
       image: personImage
     },
-
+    
     // Current KTP Associate
     {
       name: "Adam Birch",
