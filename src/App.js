@@ -271,10 +271,13 @@ const teamMembers = [
     {
       name: "Mikel Williams",
       position: "Research Associate in AI Software Engineering",
-      specialisation: "Advanced Software Development",
       specialisation: "Artificial Intelligence and Software Development (Front- and Back- end)",
-      type: "research_staff",
-      status: "completed",
+      previousRole: "PhD in AI at Loughborough University",
+      startDate: "Sept 2025",
+      endDate: "July 2026",
+      type: "Research Associate",
+      funder: "NIHR",
+      status: "current",
       image: personImage
     },
 
@@ -282,13 +285,12 @@ const teamMembers = [
     {
       name: "Krina Vara",
       position: "EPSRC Funded Internship in AI",
-      specialisation: "Artificial Intelligence Research Internship",
-      funder: "EPSRC",
-      type: "Research Associate in AI",
+      specialisation: "Artificial Intelligence Research and NLP",
+      funder: "Loughborough University",
+      type: "Research Associate in AI and NLP",
       status: "current",
       image: personImage
     },
-
 
     // =============================================================================
     // ALUMNI - RESEARCH STAFF (Now in Academic Positions)
