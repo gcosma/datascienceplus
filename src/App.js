@@ -7,7 +7,6 @@ import themisImage from './images/projects/themis-ai.jpg';
 import personImage from './images/team-members/person.jpg';
 import svgcKtpImage from './images/projects/svgc-ktp.svg';
 
-
 export default function ProfCosmaPortfolio() {
   const [currentPage, setCurrentPage] = useState('home');
   const [currentProject, setCurrentProject] = useState(null);
@@ -262,7 +261,7 @@ const teamMembers = [
       previousRole: "MSc Data Science at Loughborough University",
       startDate: "January 2026",
       endDate: "December 2028",
-      type: "KTP Associate",
+      type: "research_staff",
       status: "current",
       image: personImage
     },
@@ -275,7 +274,7 @@ const teamMembers = [
       previousRole: "PhD in AI at Loughborough University",
       startDate: "Sept 2025",
       endDate: "July 2026",
-      type: "Research Associate",
+      type: "research_staff",
       funder: "NIHR",
       status: "current",
       image: personImage
@@ -287,7 +286,7 @@ const teamMembers = [
       position: "EPSRC Funded Internship in AI",
       specialisation: "Artificial Intelligence Research and NLP",
       funder: "Loughborough University",
-      type: "Research Associate in AI and NLP",
+      type: "research_staff",
       status: "current",
       image: personImage
     },
@@ -313,7 +312,7 @@ const teamMembers = [
     name: "Abena Fosuaa Gyasi",
     position: "Assistant Researcher in AI",
     specialisation: "Artificial Intelligence Research",
-    type: "research_staff",
+    type: "research_alumni",
     status: "completed",
     image: personImage
     },
@@ -321,7 +320,7 @@ const teamMembers = [
       name: "Ihsane Boushaba",
       position: "Assistant Researcher in AI", 
       specialisation: "Artificial Intelligence Research",
-      type: "research_staff",
+      type: "research_alumni",
       status: "completed",
       image: personImage
     },
