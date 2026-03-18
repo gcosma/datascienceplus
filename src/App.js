@@ -494,13 +494,13 @@ const teamMembers = [
 const GrantCapturePage = () => {
   const fundingEvents = [
     {
-      year: "2026-2028",
+      year: "1st April 2026- 31st July 2026",
       type: "Principal Investigator", 
       title: "ARISE: Adverse Report Intelligence for Safety Enhancement",
       funder: "Impact Accelerator Award",
       amount: "~£39k",
       description: "Funding to enhance the Lens.ai tool by improving its functionality, performance, and reliability, advancing it to Technology Readiness Level 4 (TRL4)",
-      color: "emerald"
+      color: "purple"
     },
     {
       year: "2026-2028",
