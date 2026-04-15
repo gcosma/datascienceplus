@@ -1462,7 +1462,6 @@ const ProjectsPage = () => (
     
     // I-SIRCh project publications timeline data
     const isirchPublications = project.pageId === 'isirch' ? [
-      
        {
         year: "March and April 2026",
         type: "Presentations to NHS England",
