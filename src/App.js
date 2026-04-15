@@ -1469,7 +1469,7 @@ const ProjectsPage = () => (
         title: "Extracting Safety Intelligence from​ Healthcare Incident Investigation Reports",
         venue: "Online",
         description: "Presented our work on for extracting intelligence from healthcare incident investigation and coroners' reports using human factor taxonomies.",
-        location: "Project Establishment",
+        location: "Online",
         color: "amber"
       },
       {
