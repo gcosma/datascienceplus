@@ -1462,12 +1462,22 @@ const ProjectsPage = () => (
     
     // I-SIRCh project publications timeline data
     const isirchPublications = project.pageId === 'isirch' ? [
+      
+       {
+        year: "March and April 2026",
+        type: "Presentations to NHS England",
+        title: "Extracting Safety Intelligence from​ Healthcare Incident Investigation Reports",
+        venue: "Online",
+        description: "Presented our work on for extracting intelligence from healthcare incident investigation and coroners' reports using human factor taxonomies.",
+        location: "Project Establishment",
+        color: "amber"
+      },
       {
-        year: "2025",
+        year: "2026",
         type: "Project Establishment",
         title: "LENS.ai - Learning from Evidence through Natural language Systems",
         venue: "Software Development Project Launch",
-        description: "Continuation of I-SIRCh research, extending AI capabilities from HSIB maternity investigation reports to coroners' reports and other healthcare documents, focusing on using artificial intelligence to improve the investigation of factors contributing to adverse maternity incidents involving mothers across ethnic groups",
+        description: "Development of software for extracting intelligence from healthcare incident investigation and coroners' reports.",
         location: "Project Establishment",
         color: "amber"
       },
